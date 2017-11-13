@@ -6,7 +6,7 @@ const server = createServer(app);
 
 app.get('/cat', (req, res) => {
     let url = 'https://cataas.com/c';
-    let text = req.query.text;
+    let text = req.query.text || '';
 
     const tagMatch = text.match(/(?:#([\w-_]+))/);
     const paramsMatch = text.match(/(?:@([\w-_]+=[\w-_]+))/g);

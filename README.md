@@ -7,14 +7,15 @@ More about CATAAS [cataas.com](https://cataas.com)
 ## Install it
 
 ```
-node index.js
+npm install
+NODE_PORT=8080 node index.js
 ```
 
 But you can already use in production server `http://slack.cataas.com/cat`
 
 ## Integrating into your slack
 
-First you need add custom command into your slack. Sign in to your Slack account and choose your command at [my.slack.com/services/new/slash-commands](my.slack.com/services/new/slash-commands)
+First you need add custom command into your slack. Sign in to your Slack account and choose your command at [my.slack.com/services/new/slash-commands](https://my.slack.com/services/new/slash-commands)
 
 ![pic1](./pics/pic1.png)
 

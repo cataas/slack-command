@@ -1,0 +1,32 @@
+{
+  "name": "cataas-slack-command",
+  "version": "0.1.0",
+  "description": "Slack command for Cataas",
+  "main": "index.js",
+  "dependencies": {
+    "yion": "^1.2.4"
+  },
+  "private": true,
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "publish": {
+    "ssh": {
+      "ip": "92.222.88.16",
+      "user": "root"
+    },
+    "image": "node:latest",
+    "port": "9009"
+  },
+  "keywords": [
+    "slack",
+    "command",
+    "cataas",
+    "api",
+    "cats"
+  ],
+  "author": "Kevin Balicot <kevinbalicot@gmail.com>",
+  "license": "MIT"
+}

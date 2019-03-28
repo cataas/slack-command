@@ -14,11 +14,12 @@
   },
   "publish": {
     "ssh": {
-      "ip": "92.222.88.16",
+      "ip": "beelab.tk",
+      "port": 23,
       "user": "root"
     },
     "image": "node:latest",
-    "port": "9009"
+    "port": 9014
   },
   "keywords": [
     "slack",

@@ -18,6 +18,7 @@
       "port": 23,
       "user": "root"
     },
+    "options": "--restart always",
     "image": "node:latest",
     "port": 9014
   },

@@ -4,6 +4,8 @@ const port = process.env.NODE_PORT || 8080;
 const app = createApp();
 const server = createServer(app);
 
+app.get('/ping', (req, res) => res.json({ message: 'Hello world!' }));
+
 app.get('/cat', (req, res) => {
     let url = 'https://cataas.com/c';
     let text = req.query.text || '';
